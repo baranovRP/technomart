@@ -8,13 +8,20 @@
 <body>
 <header class='main-header'>
 
-  <div class='header-status'>
-    <div class="container">
+  <div class='status-container'>
+    <div class='container'>
       <span class='logo'><a href='.'>Техномарт</a></span>
 
-      <div class='status-search'><a href='#'>Поиск</a></div>
-      <div class='status-bookmarks'><a href='#'>Закладки</a>: 0</div>
-      <div class='status-shopbasket'><a href='#'>Корзина</a>: 0</div>
+      <div class='header-status clearfix'>
+        <form class='status-search-form' action='/echo' method='post'>
+          <label class='text control to-left'>
+            <input type='text' name='nickname' id='feedback-name' value='Поиск:'>
+          </label>
+        </form>
+        <a class='status-bookmarks to-left' href='#'>Закладки: <span class='counter'>0</span></a>
+        <a class='status-shopbasket to-left' href='#'>Корзина: <span class='counter'>0</span></a>
+        <a class='status-checkout to-right' href='#'>Оформить заказ</a>
+      </div>
     </div>
   </div>
 
