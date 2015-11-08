@@ -441,3 +441,44 @@ th {
 
 /* Index page
    ========================================================================== */
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.to-left {
+  float: left;
+}
+
+.to-right {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+.img {
+  min-width: 100%;
+  height: auto;
+
+  vertical-align: middle;
+}
