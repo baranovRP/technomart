@@ -715,7 +715,7 @@ img {
   font-style: italic;
 }
 
-.contacts-address {
+.header-contacts .contacts-address {
   display: block;
   margin: 0 20px;
 
@@ -727,11 +727,11 @@ img {
   font-style: normal;
 }
 
-.contacts-address span {
+.header-contacts .contacts-address span {
   display: block;
 }
 
-.contacts-address a {
+.header-contacts .contacts-address a {
   font-weight: 400;
   font-size: 21px;
   line-height: 18px;
@@ -1041,4 +1041,238 @@ img {
   font-size: 13px;
   line-height: 24px;
   font-family: PTSans, Tahoma, sans-serif;
+}
+
+.about-company {
+  width: 540px;
+  min-height: 536px;
+
+  outline: 1px dashed red;
+}
+
+.about-company-title {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 30px;
+  font-family: Cuprum, Arial, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about-company-title p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: PTSans, Tahoma, sans-serif;
+  color: #000000;
+}
+
+.about-company .btn,
+.about-contacts .btn {
+  display: inline-block;
+  padding: 10px 50px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Cuprum, Arial, sans-serif;
+  vertical-align: top;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #ee3643;
+  border-radius: 3px;
+}
+
+.about-company .btn:hover,
+.about-contacts .btn:hover {
+  background-color: #ca2c37;
+}
+
+.about-company .btn:active,
+.about-contacts .btn:active {
+  background-color: #ba2732;
+}
+
+.about-contacts {
+  width: 400px;
+  min-height: 536px;
+
+  outline: 1px dashed red;
+}
+
+.about-contacts-title {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  font-family: Cuprum, Arial, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about-contacts-title p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: PTSans, Tahoma, sans-serif;
+}
+
+.footer-store {
+  background-color: #32425c;
+}
+
+.footer-store .container {
+  position: relative;
+
+  min-height: 193px;
+}
+
+.footer-store .logo {
+  position: absolute;
+  top: 0;
+  left: 10px;
+
+  padding: 15px 0;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: Cuprum, Arial, sans-serif;
+  vertical-align: middle;
+  color: white;
+
+  background-color: #ee3643;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.store {
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-top: 90px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Cuprum, Arial, sans-serif;
+  color: #f1f5f7;
+  font-style: normal;
+}
+
+.contacts-address.store {
+  float: left;
+  width: 347px;
+
+  outline: 1px dashed red;
+}
+
+.store .contacts-phone {
+  display: inline-block;
+
+  color: #f1f5f7;
+  text-decoration: none;
+}
+
+.footer-store-navigation,
+.footer-category-navigation {
+  display: inline-block;
+  width: 583px;
+  min-height: 60px;
+
+  outline: 1px dashed red;
+}
+
+.footer-store-navigation ul,
+.footer-category-navigation ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  font-size: 0;
+}
+
+.footer-store-navigation ul {
+  padding-top: 22px;
+}
+
+.footer-category-navigation ul {
+  padding-left: 25px;
+}
+
+.footer-store-navigation li,
+.footer-category-navigation li {
+  display: inline-block;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Cuprum, Arial, sans-serif;
+  color: #f1f5f7;
+}
+
+.footer-store-navigation a,
+.footer-category-navigation a {
+  display: block;
+  padding: 20px 30px;
+
+  color: #f1f5f7;
+  text-decoration: none;
+}
+
+.footer-store-navigation li:nth-child(5n) a {
+  padding-right: 0;
+}
+
+.footer-category-navigation a {
+  color: #ffd180;
+}
+
+.footer-category-navigation li:nth-child(4n) a {
+  padding-right: 0;
+}
+
+.main-footer {
+  background-color: #293449;
+}
+
+.main-footer .column-3 {
+  min-height: 107px;
+}
+
+.creator-copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Cuprum, Arial, sans-serif;
+  color: #ffffff;
+}
+
+.footer-creator-block {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Cuprum, Arial, sans-serif;
+  color: #ffffff;
+}
+
+.creator-block-email,
+.creator-block-author {
+  display: block;
+  width: 140px;
+}
+
+.footer-creator-block a {
+  display: inline-block;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Cuprum, Arial, sans-serif;
+  color: #ffd180;
 }
