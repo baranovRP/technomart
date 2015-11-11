@@ -705,9 +705,17 @@ img {
   background-color: #518534;
 }
 
-.about-title {
-  margin-left: 0;
+.header-contacts {
+  margin-bottom: 44px;
+}
 
+.about-title {
+  width: 247px;
+  min-height: 74px;
+  padding-top: 49px;
+  padding-left: 53px;
+
+  font-weight: 400;
   font-size: 16px;
   line-height: 23px;
   font-family: Cuprum, Arial, sans-serif;
@@ -797,20 +805,84 @@ img {
 }
 
 .quick-navigation-items {
-  margin-bottom: 20px;
-
   font-size: 0;
 }
 
 .quick-navigation-item {
   display: inline-block;
+  width: 277px;
+  min-height: 97px;
   margin-right: 20px;
+  margin-bottom: 20px;
+  padding-top: 26px;
+  padding-left: 23px;
 
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   font-family: Cuprum, Arial, sans-serif;
   vertical-align: top;
+}
+
+.materials {
+  background-color: #f6b22d;
+}
+
+.tools {
+  background-color: #4aafde;
+}
+
+.equipment {
+  background-color: #cc79d1;
+}
+
+.sales {
+  background-color: #85d179;
+}
+
+.delivery {
+  background-color: #f6b22d;
+}
+
+.quick-navigation-item .item-title {
+  display: inline-block;
+  padding-bottom: 8px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: Cuprum, Arial, sans-serif;
+  vertical-align: top;
+  color: #ffffff;
+}
+
+.quick-navigation-item .btn {
+  display: block;
+  width: 135px;
+  margin-left: 2px;
+  padding: 12px 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Cuprum, Arial, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.quick-navigation-item .btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.quick-navigation-item .btn:active {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .quick-navigation-item:nth-child(3n) {
@@ -822,6 +894,25 @@ img {
   min-height: 266px;
 
   outline: 1px dashed red;
+}
+
+.quick-navigation-slide .btn {
+  display: inline-block;
+  padding: 10px 50px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Cuprum, Arial, sans-serif;
+  vertical-align: middle;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #ee3643;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
 }
 
 .column-vertical {
