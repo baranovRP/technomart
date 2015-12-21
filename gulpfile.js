@@ -153,3 +153,6 @@ gulp.task("html", ["clean"], function () {
 
 
 gulp.task("build", ["clean", "fonts", "style", "imagemin", "scripts", "html"]);
+
+
+require("./lint.js")
