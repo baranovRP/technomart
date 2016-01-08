@@ -10,45 +10,60 @@
 
   <div class="status-bar">
     <div class="status-bar__inner">
-      <span class="logo  logo--header"><a href=".">Техномарт</a></span>
+      <span class="logo  logo--header">
+        <a href="index.html">Техномарт</a>
+      </span>
       <form class="search" action="/echo" method="post">
         <input class="search__input" type="text" name="search-field" id="search-input" placeholder="Поиск:">
         <label class="search__label" for="search-input"></label>
       </form>
-      <a class="status-bar__bookmarks" href="#">Закладки: <span class="status-bar__counter">0</span>
+      <a class="status-bar__bookmarks" href="#">Закладки:
+        <span class="status-bar__counter">&nbsp;0</span>
       </a>
-      <a class="status-bar__shopbasket" href="#">Корзина: <span class="status-bar__counter">0</span>
+      <a class="status-bar__shopping-cart" href="#">Корзина:
+        <span class="status-bar__counter">&nbsp;0</span>
       </a>
       <a class="status-bar__checkout" href="#">Оформить заказ</a>
     </div>
   </div>
 
-  <div class="container clearfix">
+  <div class="main-header-content">
 
-    <div class="header-contacts clearfix">
-      <h1 class="about-title column-3 to-left">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <address class="contacts-address column-3 to-left">
-        <span class="contacts-phone"><a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a></span>
+    <div class="header-contacts">
+      <h1 class="header-contacts__title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+      <div class="header-contacts__address">
+        <span class="header-contacts__phone">
+          <a href="tel:+7 (812) 555-05-55">+7 (812) 555-05-55</a>
+        </span>
         г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-      </address>
+      </div>
+
       <!-- BEGIN Not authorized user-->
-      <div class="contacts-user-block column-3 to-right">
-        <div class="user-block-login">
-          <a href="#" class="login">Вход</a>
+      <div class="user-block  user-block--not-authorized">
+        <div class="user-block__login">
+          <a href="#">Вход</a>
         </div>
-        <div class="user-block-registration">
-          <a href="#" class="registration">Регистрация</a>
+        <div class="user-block__registration">
+          <a href="#">Регистрация</a>
         </div>
       </div>
       <!-- END Not authorized user-->
 
       <!-- BEGIN Authorized user-->
+      <div class="user-block  user-block--authorized  user-block--hidden">
+        <div class="user-block__name">
+          <a href="#">Равшан Джамшутович</a>
+          <a class="user-block__logout" href="#"></a>
+        </div>
+        <a href="#">Мои заказы</a>
+        <a href="#">Личный кабинет</a>
+      </div>
       <!-- END Authorized user-->
     </div>
 
     <nav class="main-navigation row">
       <ul>
-        <li><a href=".">Главная</a></li>
+        <li><a href="index.html">Главная</a></li>
         <li><a href="#">Компания</a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="#">Новости</a></li>
